@@ -1,0 +1,32 @@
+import{c as r,j as e,m as l,C as d}from"./index-Br6r75YF.js";import{S as h,C as y}from"./shield-alert-D0xVnHkJ.js";/**
+ * @license lucide-react v0.462.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const x=r("ChartCandlestick",[["path",{d:"M9 5v4",key:"14uxtq"}],["rect",{width:"4",height:"6",x:"7",y:"9",rx:"1",key:"f4fvz0"}],["path",{d:"M9 15v2",key:"r5rk32"}],["path",{d:"M17 3v2",key:"1l2re6"}],["rect",{width:"4",height:"8",x:"15",y:"5",rx:"1",key:"z38je5"}],["path",{d:"M17 13v3",key:"5l0wba"}],["path",{d:"M3 3v16a2 2 0 0 0 2 2h16",key:"c24i48"}]]);/**
+ * @license lucide-react v0.462.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const p=r("Layers",[["path",{d:"m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z",key:"8b97xw"}],["path",{d:"m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65",key:"dd6zsq"}],["path",{d:"m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65",key:"ep9fru"}]]);/**
+ * @license lucide-react v0.462.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const m=r("PiggyBank",[["path",{d:"M19 5c-1.5 0-2.8 1.4-3 2-3.5-1.5-11-.3-11 5 0 1.8 0 3 2 4.5V20h4v-2h3v2h4v-4c1-.5 1.7-1 2-2h2v-4h-2c0-1-.5-1.5-1-2V5z",key:"1ivx2i"}],["path",{d:"M2 9v1c0 1.1.9 2 2 2h1",key:"nm575m"}],["path",{d:"M16 11h.01",key:"xkw8gn"}]]);/**
+ * @license lucide-react v0.462.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const f=r("Shuffle",[["path",{d:"m18 14 4 4-4 4",key:"10pe0f"}],["path",{d:"m18 2 4 4-4 4",key:"pucp1d"}],["path",{d:"M2 18h1.973a4 4 0 0 0 3.3-1.7l5.454-8.6a4 4 0 0 1 3.3-1.7H22",key:"1ailkh"}],["path",{d:"M2 6h1.972a4 4 0 0 1 3.6 2.2",key:"km57vx"}],["path",{d:"M22 18h-6.041a4 4 0 0 1-3.3-1.8l-.359-.45",key:"os18l9"}]]);/**
+ * @license lucide-react v0.462.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const u=r("Target",[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["circle",{cx:"12",cy:"12",r:"6",key:"1vlfrh"}],["circle",{cx:"12",cy:"12",r:"2",key:"1c9p78"}]]);/**
+ * @license lucide-react v0.462.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const g=r("TrendingDown",[["polyline",{points:"22 17 13.5 8.5 8.5 13.5 2 7",key:"1r2t7k"}],["polyline",{points:"16 17 22 17 22 11",key:"11uiuu"}]]),t={navy:"#0B3E77",yellow:"#F3D35B",orange:"#EA924D",redOrange:"#F5543A",white:"#ffffff"},i=(a=0)=>({hidden:{opacity:0,y:16},show:{opacity:1,y:0,transition:{duration:.45,ease:"easeOut",delay:a}}}),b=[{heading:"Safe but Losing",label:"Saver Shubham",did:"Kept all money in a savings account at 2%.",result:"₹11,04,081 — inflation quietly destroyed value.",icons:[m,g,h]},{heading:"Risky & Uncertain",label:"Investor Isha",did:"Put everything in stocks and hoped for the best.",result:"₹14,00,000 — only if luck stays on her side.",icons:[x,f,y]},{heading:"Structured & Winning",label:"Smart Sarah",did:"Diversified across stocks, gold, debt & systems.",result:"Potentially far higher & more stable growth.",focus:!0,icons:[p,u,d]}];function v(){return e.jsx("section",{className:"py-12 md:py-16",style:{backgroundColor:t.navy},children:e.jsxs("div",{className:"mx-auto max-w-6xl px-4 text-center",children:[e.jsxs(l.div,{initial:"hidden",whileInView:"show",viewport:{once:!0},className:"mb-10",children:[e.jsxs(l.h2,{variants:i(0),className:"text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold",style:{color:t.white},children:["Here’s the Difference: ",e.jsx("span",{style:{color:t.yellow},children:"Saving"})," vs."," ",e.jsx("span",{style:{color:t.yellow},children:"Investing"})," vs."," ",e.jsx("span",{style:{color:t.redOrange},children:"Investing Smart"})]}),e.jsx(l.div,{variants:i(.1),className:"mx-auto mt-3 h-[3px] w-24 rounded-full",style:{backgroundColor:t.orange}})]}),e.jsx("div",{className:"grid gap-4 md:grid-cols-3",children:b.map((a,o)=>{const s=a.focus;return e.jsxs(l.div,{variants:i(o*.06),initial:"hidden",whileInView:"show",viewport:{once:!0},className:"rounded-xl border p-5 text-left transition-all",style:{backgroundColor:s?"rgba(255,255,255,0.14)":"rgba(255,255,255,0.06)",borderColor:s?"rgba(243,211,91,0.6)":"rgba(255,255,255,0.2)",color:"#fff",opacity:s?1:.45,transform:s?"scale(1.04)":"scale(1)"},children:[e.jsx("div",{className:"text-xs uppercase tracking-wider font-bold mb-1",style:{color:s?t.yellow:"rgba(255,255,255,0.6)"},children:a.heading}),e.jsxs("div",{className:"flex items-center gap-2 mb-3",children:[e.jsx("h3",{className:"text-lg font-extrabold",style:{color:s?t.yellow:"#fff"},children:a.label}),s&&e.jsx("span",{className:"rounded-full px-2 py-1 text-[11px] font-bold",style:{backgroundColor:"rgba(243,211,91,0.18)",border:"1px solid rgba(243,211,91,0.45)"},children:"BEST CHOICE"})]}),e.jsx("div",{className:"flex gap-2 mb-4",children:a.icons.map((n,c)=>e.jsx("div",{className:"h-8 w-8 flex items-center justify-center rounded-full border",style:{borderColor:"rgba(255,255,255,0.25)",backgroundColor:"rgba(255,255,255,0.08)"},children:e.jsx(n,{size:16})},c))}),e.jsx("p",{className:"text-sm opacity-90 mb-2",children:a.did}),e.jsx("p",{className:"text-sm font-semibold",style:{color:s?t.yellow:"#fff"},children:a.result})]},a.label)})}),e.jsxs(l.p,{variants:i(.2),initial:"hidden",whileInView:"show",viewport:{once:!0},className:"mt-10 text-base md:text-lg",style:{color:"#fff"},children:["Smart money isn’t about luck or fear — it’s about"," ",e.jsx("span",{style:{color:t.yellow,fontWeight:800},children:"structure, systems, and clarity"}),"."]}),e.jsx(l.div,{variants:i(.3),initial:"hidden",whileInView:"show",viewport:{once:!0},className:"mt-8 flex justify-center",children:e.jsx("button",{onClick:()=>{window.fbq&&window.fbq("track","AddToCart",{value:99,currency:"INR",content_ids:["ai-trading-workshop"]}),window.open("https://rzp.io/rzp/DBp63xai","_self")},className:`rounded-full px-10 py-4 text-lg font-bold text-[#111]\r
+              shadow-[0_5px_0_rgba(0,0,0,0.25)] transition-transform hover:-translate-y-0.5`,style:{background:`linear-gradient(90deg, ${t.yellow}, ${t.orange})`},children:"Register Now at ₹99"})})]})})}export{v as default};
