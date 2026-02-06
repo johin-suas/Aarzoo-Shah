@@ -151,7 +151,7 @@ const StickyFooter = ({ onCTAClick }: StickyFooterProps) => {
                   w.fbq("track", "AddToCart", {
                     value: 99,
                     currency: "INR",
-                    content_ids: ["ai-trading-workshop"],
+                    content_ids: ["ai-trading-Masterclass"],
                   });
                 }
                 window.open("https://rzp.io/rzp/DBp63xai", "_self");

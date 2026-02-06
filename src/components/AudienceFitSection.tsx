@@ -41,7 +41,7 @@ const AudienceFitSection = ({ cards }: AudienceFitProps)=> {
             style={{ color: COLORS.navy }}
           >
             This Isn’t for Everyone.{" "}
-            <span style={{ color: COLORS.orange }}>This is for YOU if:</span>
+            <span style={{ color: COLORS.orange }}>This is for YOU if you are :</span>
           </motion.h2>
           <motion.div
             variants={fadeUp(0.05)}
@@ -111,7 +111,7 @@ const AudienceFitSection = ({ cards }: AudienceFitProps)=> {
       window.fbq("track", "AddToCart", {
         value: 99,
         currency: "INR",
-        content_ids: ["ai-trading-workshop"],
+        content_ids: ["ai-trading-Masterclass"],
       });
     }
   }}

@@ -187,7 +187,7 @@ const Hero = () => {
             style={{ color: `${COLORS.navy}CC` }}
           >
             <span className="font-semibold" style={{ color: COLORS.redOrange }}>
-              Join Aarzoo Shah’s 2-Day Workshop 
+              Join Aarzoo Shah’s 2-Day Masterclass 
             </span>{" "}
             to understand how to make your savings work
 smarter through structured diversification and informed financial planning — without tips,

@@ -66,7 +66,7 @@ export default function ThankYou() {
           Join the WhatsApp group below to receive updates, reminders, and
           access details for the{" "}
           <span style={{ color: COLORS.yellow, fontWeight: 600 }}>
-            Smart Wealth Blueprint Workshop
+            Smart Wealth Blueprint Masterclass
           </span>
           .
         </p>

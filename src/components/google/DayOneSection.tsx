@@ -52,7 +52,7 @@ const STEP1: Step = {
   title: "Step 1: Define Your Next Big Move",
   intro:
     "You’ve got goals for retirement, a dream home, and generational wealth. But are your investments actually lined up to get you there? We’ll dive into your current setup and create a no-BS plan to hit those targets faster.",
-  sub: "With our Financial Goal Calculator (yours free during the Workshop), you’ll:",
+  sub: "With our Financial Goal Calculator (yours free during the Masterclass), you’ll:",
   bullets: [
     "Pinpoint how much you need to grow yearly.",
     "Spot where your portfolio’s lagging.",

@@ -10,6 +10,8 @@ import IndexGa from "./pages/IndexGa";
 import ThankYouGa from "./pages/ThankYouGa";
 import Indexfb2 from "./pages/Indexfb2";
 import ThankYouFb2 from "./pages/ThankuFb2";
+import FbFree from "./pages/FbFree";
+import ThankYouFb3 from "./pages/ThankuFb3";
 
 const queryClient = new QueryClient();
 
@@ -22,11 +24,13 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/fb2" element={<Indexfb2 />} />
+          <Route path="/fb3" element={<FbFree />} />
           <Route path="/ga" element={<IndexGa/>} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
           <Route path="/ty-smart-wealth" element={<ThankYou/>} />
           <Route path="/ty-smart-wealth-fb2" element={<ThankYouFb2/>} />
+          <Route path="/ty-smart-wealth-fb3" element={<ThankYouFb3/>} />
           <Route path="/ty-smart-wealth-ga" element={<ThankYouGa/>} />
         </Routes>
       </BrowserRouter>

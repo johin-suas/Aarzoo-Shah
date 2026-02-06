@@ -164,11 +164,11 @@ export const RegisterPopup = ({ isOpen, onClose }: PopupFormProps) => {
                   disabled={isSubmitting}
                   className="w-full mt-6"
                 >
-                  {isSubmitting ? "Processing..." : "Join the Workshop Now!"}
+                  {isSubmitting ? "Processing..." : "Join the Masterclass Now!"}
                 </Button>
 
                 <p className="text-xs text-center text-muted-foreground mt-4">
-                  By registering, you agree to receive updates about the workshop
+                  By registering, you agree to receive updates about the Masterclass
                 </p>
               </form>
             </div>

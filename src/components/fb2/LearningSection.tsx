@@ -117,7 +117,7 @@ const LearningSection = () => {
       window.fbq("track", "AddToCart", {
         value: 99,
         currency: "INR",
-        content_ids: ["money-workshop"],
+        content_ids: ["money-Masterclass"],
       });
     }
   }}

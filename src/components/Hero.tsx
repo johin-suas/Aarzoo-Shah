@@ -251,7 +251,7 @@ const Hero = () => {
         window.fbq("track", "Lead", {
           value: 99,
           currency: "INR",
-          content_name: "Money Workshop",
+          content_name: "Money Masterclass",
         });
       }
     } catch {
@@ -326,7 +326,7 @@ const Hero = () => {
             style={{ color: `${COLORS.navy}CC` }}
           >
             <span className="font-semibold" style={{ color: COLORS.redOrange }}>
-              Join Aarzoo Shah’s 2-Day Workshop
+              Join Aarzoo Shah’s 2-Day Masterclass
             </span>{" "}
             to understand how to make your savings work smarter through structured
             diversification and informed financial planning — without tips, hype, or
@@ -422,7 +422,7 @@ const Hero = () => {
                   window.fbq("track", "AddToCart", {
                     value: 99,
                     currency: "INR",
-                    content_ids: ["money-workshop"],
+                    content_ids: ["money-Masterclass"],
                   });
                 }
               }}

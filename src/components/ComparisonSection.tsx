@@ -188,7 +188,7 @@ export default function ComparisonSection() {
       window.fbq("track", "AddToCart", {
         value: 99,
         currency: "INR",
-        content_ids: ["ai-trading-workshop"],
+        content_ids: ["ai-trading-Masterclass"],
       });
     }
   }}

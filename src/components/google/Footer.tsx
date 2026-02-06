@@ -1,8 +1,16 @@
+import { Award } from "lucide-react";
+
 const Footer = () => {
   return (
     <footer className="bg-muted/30 py-12 border-t border-border">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
+          <div className="bg-[#0B3E77] text-accent-foreground rounded-xl p-2 inline-flex items-center gap-3 mb-6">
+            <div className="bg-secondary/20 w-12 h-12 rounded-full flex items-center justify-center">
+              <Award className="w-6 h-6 text-secondary" />
+            </div>
+            <p className="font-montserrat font-bold text-lg">SEBI Registered Analyst : INH000022297</p>
+          </div>
           <div className="bg-card rounded-2xl p-8 border border-border text-left">
             <h3 className="font-montserrat font-bold text-lg text-accent mb-4">
               DISCLAIMER
@@ -15,7 +23,7 @@ investment advice.
               </p>
 
               <p>
-                <strong className="text-foreground">Age Requirement:</strong> You must be at least 18 years old to participate in any financial education programs or workshops.
+                <strong className="text-foreground">Age Requirement:</strong> You must be at least 18 years old to participate in any financial education programs or Masterclasss.
               </p>
 
               <p>

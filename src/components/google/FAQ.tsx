@@ -19,16 +19,16 @@ const COLORS = {
 const FAQ = () => {
   const faqs = [
     {
-      q: "I’ve been investing for years—why should I attend this Workshop?",
-      a: "If you’re already investing but feel stuck or are looking to diversify, this Workshop will show you how to accelerate your returns with smart strategies. We cover new opportunities in algorithmic trading and crypto, plus ways to create a more secure financial future with your existing capital.",
+      q: "I’ve been investing for years—why should I attend this Masterclass?",
+      a: "If you’re already investing but feel stuck or are looking to diversify, this Masterclass will show you how to accelerate your returns with smart strategies. We cover new opportunities in algorithmic trading and crypto, plus ways to create a more secure financial future with your existing capital.",
     },
     {
-      q: "Is this Workshop suitable for beginners?",
-      a: "While the content is advanced and focused on smart wealth-building strategies, we don’t assume you’re new to investing. If you already have capital invested and want to take your strategy to the next level, this Workshop is for you.",
+      q: "Is this Masterclass suitable for beginners?",
+      a: "While the content is advanced and focused on smart wealth-building strategies, we don’t assume you’re new to investing. If you already have capital invested and want to take your strategy to the next level, this Masterclass is for you.",
     },
     {
       q: "Will I be able to implement what I learn immediately?",
-      a: "Absolutely! We’ve structured this Workshop to be actionable from day one. You’ll leave with clear, practical strategies to apply to your portfolio right away.",
+      a: "Absolutely! We’ve structured this Masterclass to be actionable from day one. You’ll leave with clear, practical strategies to apply to your portfolio right away.",
     },
     {
       q: "What if I can’t attend live?",

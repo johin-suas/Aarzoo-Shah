@@ -40,7 +40,7 @@ const FEATURES = [
   },
 ];
 
-const WhyWorkshopSection = () => {
+const WhyMasterclassSection = () => {
   return (
     <section
       className="relative overflow-hidden"
@@ -69,7 +69,7 @@ const WhyWorkshopSection = () => {
             className="font-extrabold leading-tight text-2xl sm:text-3xl md:text-4xl lg:text-5xl"
             style={{ color: COLORS.yellow }}
           >
-            Why This Workshop? Because You
+            Why This Masterclass? Because You
             <br className="hidden sm:block" /> Deserve Results, Not Theories.
           </motion.h2>
           <motion.div
@@ -83,7 +83,7 @@ const WhyWorkshopSection = () => {
             style={{ color: COLORS.cream }}
           >
             You’ve worked hard for your money. Now learn how to manage it confidently. Inflation and
-changing markets make it harder to plan ahead. This workshop helps you understand
+changing markets make it harder to plan ahead. This Masterclass helps you understand
 asset allocation, risk management, and goal setting.
           </motion.p>
         </motion.div>
@@ -152,7 +152,7 @@ asset allocation, risk management, and goal setting.
       window.fbq("track", "AddToCart", {
         value: 99,
         currency: "INR",
-        content_ids: ["money-workshop"],
+        content_ids: ["money-Masterclass"],
       });
     }
   }}
@@ -191,4 +191,4 @@ asset allocation, risk management, and goal setting.
   );
 };
 
-export default WhyWorkshopSection;
+export default WhyMasterclassSection;

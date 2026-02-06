@@ -267,7 +267,7 @@ const Hero = () => {
         window.fbq("track", "Lead", {
           value: 99,
           currency: "INR",
-          content_name: "Money Workshop",
+          content_name: "Money Masterclass",
         });
       }
     } catch {
@@ -317,8 +317,7 @@ const Hero = () => {
             className="font-extrabold leading-tight text-2xl sm:text-4xl md:text-5xl lg:text-6xl max-w-[38rem] mx-auto lg:mx-0"
             style={{ color: COLORS.red }}
           >
-            Your Salary Can Grow 3× Faster If You Follow these 7 Non-Negotiable Money
-            Principles with me.
+            Build Your Personal Financial Roadmap:<br/> A Step-By-Step Masterclass on Wealth Planning
           </h1>
 
           <motion.p
@@ -327,13 +326,13 @@ const Hero = () => {
             style={{ color: `${COLORS.navy}CC` }}
           >
             <span className="font-semibold" style={{ color: COLORS.navy }}>
-              Join Aarzoo Shah’s 2-Day Workshop to understand how to make your savings work
+              Join Aarzoo Shah’s 2-Day Masterclass to understand how to make your savings work
               smarter.
             </span>
           </motion.p>
 
           <p className="font-base text-red-900 text-xs">
-            " Educational content only. This is not financial or investment advice. "
+            *Educational content only. This is not financial or investment advice.
           </p>
         </motion.div>
 
@@ -384,7 +383,7 @@ const Hero = () => {
       window.fbq("track", "AddToCart", {
         value: 99,
         currency: "INR",
-        content_ids: ["money-workshop"],
+        content_ids: ["money-Masterclass"],
       });
     }
   }}
@@ -555,7 +554,7 @@ const Hero = () => {
                 window.fbq("track", "AddToCart", {
                   value: 99,
                   currency: "INR",
-                  content_ids: ["money-workshop"],
+                  content_ids: ["money-Masterclass"],
                 });
               }
             }}

@@ -10,7 +10,7 @@ const DayOneSection  = lazy(() => import("@/components/fb2/DayOneSection"));
 const DayTwoSection  = lazy(() => import("@/components/fb2/DayTwoSection"));
 const ComparisonSection = lazy(() => import("@/components/fb2/ComparisonSection"));
 const AboutAarzoo    = lazy(() => import("@/components/fb2/AboutAarzoo"));
-const WhyWorkshopSection = lazy(() => import("@/components/fb2/WhyWorkshopSection"));
+const WhyMasterclassSection = lazy(() => import("@/components/fb2/WhyWorkshopSection"));
 const PainPointsSection  = lazy(() => import("@/components/fb2/PainPointsSection"));
 const AudienceFitSection = lazy(() => import("@/components/fb2/AudienceFitSection"));
 const TestimonialsSection = lazy(() => import("@/components/fb2/TestimonialsSection"));
@@ -35,7 +35,7 @@ export default function Indexfb2() {
       <Suspense fallback={Fallback}><DayTwoSection /></Suspense>
       <Suspense fallback={Fallback}><ComparisonSection /></Suspense>
       <Suspense fallback={Fallback}><AboutAarzoo /></Suspense>
-      <Suspense fallback={Fallback}><WhyWorkshopSection /></Suspense>
+      <Suspense fallback={Fallback}><WhyMasterclassSection /></Suspense>
       <Suspense fallback={Fallback}><PainPointsSection /></Suspense>
       <Suspense fallback={Fallback}>
         <AudienceFitSection cards={[

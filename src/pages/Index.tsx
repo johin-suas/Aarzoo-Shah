@@ -9,7 +9,7 @@ const DayOneSection  = lazy(() => import("@/components/DayOneSection"));
 const DayTwoSection  = lazy(() => import("@/components/DayTwoSection"));
 const ComparisonSection = lazy(() => import("@/components/ComparisonSection"));
 const AboutAarzoo    = lazy(() => import("@/components/AboutAarzoo"));
-const WhyWorkshopSection = lazy(() => import("@/components/WhyWorkshopSection"));
+const WhyMasterclassSection = lazy(() => import("@/components/WhyWorkshopSection"));
 const PainPointsSection  = lazy(() => import("@/components/PainPointsSection"));
 const AudienceFitSection = lazy(() => import("@/components/AudienceFitSection"));
 const TestimonialsSection = lazy(() => import("@/components/TestimonialsSection"));
@@ -33,7 +33,7 @@ export default function Index() {
       <Suspense fallback={Fallback}><DayTwoSection /></Suspense>
       <Suspense fallback={Fallback}><ComparisonSection /></Suspense>
       <Suspense fallback={Fallback}><AboutAarzoo /></Suspense>
-      <Suspense fallback={Fallback}><WhyWorkshopSection /></Suspense>
+      <Suspense fallback={Fallback}><WhyMasterclassSection /></Suspense>
       <Suspense fallback={Fallback}><PainPointsSection /></Suspense>
       <Suspense fallback={Fallback}>
         <AudienceFitSection cards={[
